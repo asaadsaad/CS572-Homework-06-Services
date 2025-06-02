@@ -3,5 +3,4 @@
 1. Refactor yesterday's code and use the HTTP Client service. Practice working with the HTTP stream:
    * Consume the Observable with `.subscribe()`
    * Consume the Observable with `AsyncPipe`
-   * Convert the Observable to a Signal
-2. Create an `effect` that reacts to the current pagination index and change the page title to show: `Showing page {current} of {total}`. Use the `Title` service to set the page. 
+2. Create an `effect` that changes the page title to the recipe's title. Use the `Title` service to set the page. 
